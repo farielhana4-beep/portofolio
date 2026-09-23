@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cerita di balik project TOKOTOKI: dari ide hingga website toko kerajinan. Catatan Fariel Hana Putra.">
+  <title>Membangun TOKOTOKI | Artikel Fariel Hana Putra</title>
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/project.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="../index.html" aria-label="Kembali ke portfolio Fariel Hana Putra"><span class="brand-mark" aria-hidden="true">FH</span><span>Fariel Hana Putra</span></a>
+      <button class="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="../index.html#portfolio">Portfolio</a><a href="../index.html#artikel">Artikel</a><a href="../index.html#kontak">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="section" id="artikel">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="Breadcrumb">
+          <li><a href="../index.html">Portfolio</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href="../index.html#artikel">Artikel</a></li>
+          <li aria-hidden="true">/</li>
+          <li aria-current="page">Membangun TOKOTOKI</li>
+        </ol>
+        <div class="article-meta"><span class="tag">PROJECT</span></div>
+        <h1>Membangun TOKOTOKI: Dari Ide hingga Website Toko Kerajinan</h1>
+        <div class="article-prose">
+          <p>TOKOTOKI berawal dari ide sederhana: membuat website toko untuk produk kerajinan tangan dan dekorasi. Saya ingin punya satu project utuh yang benar-benar bisa dipakai — ada katalognya, ada keranjangnya, ada halaman checkout-nya, dan ada dashboard untuk admin.</p>
+
+          <h3>Konsep websitenya</h3>
+          <p>Konsepnya adalah toko online kecil yang rapi dan mudah dipakai. Pengunjung bisa melihat-lihat produk tanpa harus daftar dulu. Produk dikelompokkan ke dalam kategori — Dekorasi, Aksesoris, Perlengkapan Rumah, dan Souvenir — supaya pembeli gampang menemukan yang mereka cari.</p>
+
+          <h3>Fitur yang saya buat</h3>
+          <ul>
+            <li>Katalog produk dengan kategori dan pencarian</li>
+            <li>Halaman detail untuk setiap produk</li>
+            <li>Keranjang belanja dan checkout</li>
+            <li>Riwayat transaksi untuk pembeli</li>
+            <li>Dashboard admin untuk mengelola produk (CRUD), stok, dan transaksi</li>
+            <li>Role dan authorization untuk membedakan admin, kasir, dan customer</li>
+            <li>Tampilan responsive supaya nyaman dibuka di HP maupun laptop</li>
+          </ul>
+
+          <h3>Teknologi yang dipakai</h3>
+          <p>Project ini dibangun dengan Laravel di sisi backend, Inertia.js sebagai penghubung, React.js untuk antarmuka, Tailwind CSS untuk styling, dan MySQL untuk databasenya. Memakai kombinasi ini sekaligus membuat saya belajar bagaimana frontend dan backend bekerja sama dalam satu aplikasi.</p>
+
+          <h3>Yang saya pelajari</h3>
+          <p>Hal terbesar yang saya pelajari adalah bahwa membuat website toko bukan cuma soal tampilan. Alur datanya harus benar: stok berkurang saat checkout, transaksi tercatat rapi, dan setiap peran pengguna dibatasi sesuai haknya. Saya juga belajar bahwa desain yang sederhana tapi konsisten jauh lebih enak dipakai daripada desain yang ramai tapi membingungkan.</p>
+          <p>TOKOTOKI masih terus saya kembangkan, tapi project ini jadi bukti buat saya sendiri bahwa saya bisa membangun aplikasi web dari awal sampai bisa dipakai.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="../projects/tokotoki.html">Lihat Project TOKOTOKI</a>
+          <a class="button button-secondary" href="../index.html#artikel">Kembali ke Daftar Artikel</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-content"><p>© <span id="year"></span> Fariel Hana Putra · Junior Web Developer · Ponorogo, Jawa Timur</p><a href="#top">Kembali ke atas ↑</a></div></footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

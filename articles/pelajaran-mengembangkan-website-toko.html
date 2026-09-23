@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pelajaran yang saya dapatkan saat mengembangkan website toko: struktur project, validasi, autentikasi, debugging, dan testing. Catatan Fariel Hana Putra.">
+  <title>Pelajaran Mengembangkan Website Toko | Artikel Fariel Hana Putra</title>
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/project.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="../index.html" aria-label="Kembali ke portfolio Fariel Hana Putra"><span class="brand-mark" aria-hidden="true">FH</span><span>Fariel Hana Putra</span></a>
+      <button class="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="../index.html#portfolio">Portfolio</a><a href="../index.html#artikel">Artikel</a><a href="../index.html#kontak">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="section" id="artikel">
+      <div class="container">
+        <ol class="breadcrumb" aria-label="Breadcrumb">
+          <li><a href="../index.html">Portfolio</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href="../index.html#artikel">Artikel</a></li>
+          <li aria-hidden="true">/</li>
+          <li aria-current="page">Pelajaran Mengembangkan Website Toko</li>
+        </ol>
+        <div class="article-meta"><span class="tag">PENGEMBANGAN WEB</span></div>
+        <h1>Pelajaran yang Saya Dapatkan Saat Mengembangkan Website Toko</h1>
+        <div class="article-prose">
+          <p>Selama mengembangkan TOKOTOKI, saya belajar banyak hal yang tidak saya dapatkan kalau cuma baca teori. Berikut pelajaran yang paling berkesan buat saya — ditulis sebagai catatan belajar, bukan sebagai nasihat ahli.</p>
+
+          <h3>Struktur project itu penting</h3>
+          <p>Di awal saya asal menaruh file dan akhirnya bingung sendiri. Setelah project dirapikan — controller, model, dan halaman frontend masing-masing punya tempat — mencari dan memperbaiki kode jadi jauh lebih cepat.</p>
+
+          <h3>Database, CRUD, dan validasi</h3>
+          <p>Membuat CRUD produk mengajarkan saya cara merancang tabel dan relasi sederhana. Pelajaran pentingnya: validasi form tidak boleh cuma di browser. Data yang dikirim ke server harus divalidasi ulang di backend, karena input dari pengguna tidak pernah bisa dipercaya begitu saja.</p>
+
+          <h3>Autentikasi dan role pengguna</h3>
+          <p>Di TOKOTOKI ada tiga peran: admin, kasir, dan customer. Saya belajar bahwa pembatasan akses harus dicek di sisi server, bukan cuma disembunyikan di tampilan. Tombol yang disembunyikan tapi endpoint-nya terbuka tetap bisa diakses orang yang tahu caranya.</p>
+
+          <h3>Responsive dan debugging</h3>
+          <p>Saya belajar menguji tampilan di ukuran layar HP, bukan cuma di laptop. Untuk debugging, kebiasaan yang paling membantu saya adalah membaca pesan error sampai habis dan menguji satu perubahan dalam satu waktu, supaya jelas bagian mana yang bermasalah.</p>
+
+          <h3>Testing memberi rasa aman</h3>
+          <p>Menjalankan automated test setiap selesai mengubah kode membuat saya berani melakukan perubahan. Kalau ada yang rusak, test langsung memberi tahu. Saya masih belajar menulis test yang bagus, tapi manfaatnya langsung terasa.</p>
+
+          <p>Kesimpulannya: project kecil yang selesai dan berjalan mengajarkan lebih banyak daripada banyak tutorial yang tidak pernah dipraktikkan.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="../projects/tokotoki.html">Lihat Project TOKOTOKI</a>
+          <a class="button button-secondary" href="../index.html#artikel">Kembali ke Daftar Artikel</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-content"><p>© <span id="year"></span> Fariel Hana Putra · Junior Web Developer · Ponorogo, Jawa Timur</p><a href="#top">Kembali ke atas ↑</a></div></footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
