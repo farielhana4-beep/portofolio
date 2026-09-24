@@ -1,6 +1,5 @@
-// URL TOKOTOKI — GANTI dengan URL hosting production setelah deploy.
-// Nilai default di bawah hanya untuk demo lokal via Laragon.
-const storeUrl = 'http://tokotoki.test';
+// URL website TOKOTOKI production.
+const storeUrl = 'https://tokotoki-production.up.railway.app';
 const menuButton = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 const navItems = [...document.querySelectorAll('.nav-links a')];
